@@ -66,3 +66,7 @@ npx lint-staged
 ```
 
 `npm run check` запускает все линтеры до выполнения коммита и использование `lint-staged` лишается всякого смысла.
+
+## Eslint v9
+
+В ветке [eslint@9](https://github.com/ruslanyar/react-webpack/tree/eslint%409) произведена миграция `eslint` до версии 9.
