@@ -1,6 +1,12 @@
-import style from './index.module.scss';
+import { createRoot } from 'react-dom/client';
+
+import { App } from './components/app/app';
+
 import './index.scss';
 
-import './assets/images/dog.jpg';
-
-console.log(style);
+const root = createRoot(document.querySelector('#root')!);
+root.render(
+	<App>
+		<h1>Hello, React!</h1>
+	</App>
+);
